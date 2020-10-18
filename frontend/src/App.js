@@ -1,11 +1,15 @@
 import React from 'react';
 
+import './global.css';
+
+import Logon from './pages/Logon'
 // JSX ( Javascript XML)
 
 function App() {
+  
   return (
-    <h1> Iniciando o Projeto FrontEnd </h1>
-  );
+    <Logon />
+    )
 }
 
-export default App;
+export default App
