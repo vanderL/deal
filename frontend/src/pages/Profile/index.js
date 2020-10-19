@@ -14,7 +14,7 @@ export default function Profile() {
 
                 <Link className="button" to="/incidents/new"> Cadastrar novo acordo</Link>
                 <button type="button">
-                    <FiPower size={16} color="#33CA78" />
+                    <FiPower size={16} color="#E02041" />
                 </button>
             </header>
 
@@ -32,7 +32,7 @@ export default function Profile() {
                     <p>R$ 300,00 reais</p>
 
                     <button type="button">
-                        <FiTrash2 size={20} color="#a8a8b3" />
+                        <FiTrash2 size={20} color="#E02041" />
                     </button>
                 </li>
               {/*  Fim da Listagem estatica base */}
@@ -48,7 +48,7 @@ export default function Profile() {
                     <p>R$ 300,00 reais</p>
 
                     <button type="button">
-                        <FiTrash2 size={20} color="#a8a8b3" />
+                        <FiTrash2 size={20} color="#E02041" />
                     </button>
                 </li>
                 <li>
@@ -62,7 +62,7 @@ export default function Profile() {
                     <p>R$ 300,00 reais</p>
 
                     <button type="button">
-                        <FiTrash2 size={20} color="#a8a8b3" />
+                        <FiTrash2 size={20} color="#E02041" />
                     </button>
                 </li>
                 <li>
@@ -76,7 +76,7 @@ export default function Profile() {
                     <p>R$ 300,00 reais</p>
 
                     <button type="button">
-                        <FiTrash2 size={20} color="#a8a8b3" />
+                        <FiTrash2 size={20} color="#E02041" />
                     </button>
                 </li>
                 <li>
@@ -90,7 +90,7 @@ export default function Profile() {
                     <p>R$ 300,00 reais</p>
 
                     <button type="button">
-                        <FiTrash2 size={20} color="#a8a8b3" />
+                        <FiTrash2 size={20} color="#E02041" />
                     </button>
                 </li>
                 <li>
@@ -104,7 +104,7 @@ export default function Profile() {
                     <p>R$ 300,00 reais</p>
 
                     <button type="button">
-                        <FiTrash2 size={20} color="#a8a8b3" />
+                        <FiTrash2 size={20} color="#E02041" />
                     </button>
                 </li>
                 {/*  Fim  da Listagem estatica para replicação*/}

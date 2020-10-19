@@ -52,8 +52,35 @@
 }
 
 .profile-container ul li {
-    background: #fff;
+    background: #f0f0f0;
     padding: 24px;
     border-radius: 8px;
     position: relative;
+}
+
+.profile-container ul li button {
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    border: 0;
+}
+
+.profile-container ul li  button:hover {
+    opacity: 0.6;
+}
+
+.profile-container ul li  strong {
+    display: block;
+    margin-bottom: 16px;
+    color: #41414d;
+}
+
+.profile-container ul li p + strong {
+    margin-top: 32px;
+}
+
+.profile-container ul li p {
+    color: #737380;
+    line-height: 21px;
+    font-size: 16px;
 }
