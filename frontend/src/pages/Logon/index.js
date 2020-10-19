@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { FiLogIn } from 'react-icons/fi'
 
 import './style.css'
 
-import heroesGPS from '../../assets/heroes.png'
-import logoForteGPS from '../../assets/logo.svg'
+import heroesGPS from '../../assets/fortegps-pessoas.png'
+import logoForteGPS from '../../assets/LOGO-FORTEGPS.png'
 
 export default function Logon() {
     return (
@@ -16,11 +17,12 @@ export default function Logon() {
                     <h1>Faça seu Login</h1>
 
                     <input placeholder="Sua ID" />
+                    <button className="button" >Entrar </button>
 
-                    <a href="/register">
-                        <FiLogIn />
+                    <Link className="back-link" to="/register">
+                        <FiLogIn size={16} color="#33CA78" />
                         Não tenho cadastro
-                    </a>
+                    </Link>
                 </form>
             </section>
 

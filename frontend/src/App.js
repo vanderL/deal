@@ -2,14 +2,14 @@ import React from 'react';
 
 import './global.css';
 
-import Logon from './pages/Logon'
-// JSX ( Javascript XML)
+import Routes from './routes'
 
 function App() {
   
   return (
-    <Logon />
+    <Routes />
     )
 }
 
 export default App
+// JSX ( Javascript XML)
